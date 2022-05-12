@@ -1,0 +1,70 @@
+
+section{
+    width: 100vw;
+    max-width: 1200px;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section.yellow{
+    background-color: #efd592;
+    
+}
+
+section.blue{
+    background-color: #4343f9;
+
+}
+button{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+}
+
+#button1{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #efd592;
+    background-color: #242d38;
+}
+
+#button2{
+    width: 200px;
+    height: 60px;
+    right: 40px;
+    bottom: 40px;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #242d38;
+    border-width: 6px;
+    border-color: #242d38;
+    background-color: #efd592;
+}
+
+#button3{
+    width: 200px;
+    height: 60px;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    border-style: none;
+    background-color: #4343f9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
